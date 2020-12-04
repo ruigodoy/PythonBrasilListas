@@ -1,0 +1,11 @@
+EstruturaSequencial/venv/
+
+EstruturaSequencial/.mypy_cache/
+
+EstruturaSequencial/.vscode/
+
+venv/
+
+.vscode/
+
+.mypy_cache/
