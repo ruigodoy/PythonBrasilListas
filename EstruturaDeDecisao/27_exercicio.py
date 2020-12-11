@@ -17,7 +17,7 @@ def calcule_valor(fruta, quantidade_kg):
         elif quantidade_kg > 8:
             valor = quantidade_kg * 2.20
             return valor - (valor * 0.10)
-    elif fruta.uppe() == 'MORANGO':
+    elif fruta.upper() == 'MORANGO':
         if quantidade_kg <= 5:
             return quantidade_kg * 1.80
         elif quantidade_kg > 5 and quantidade_kg <= 8:
